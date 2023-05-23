@@ -1,0 +1,45 @@
+NODE JS
+
+1.Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
+2.“location” object is related to a particular url; that means it is for page specific. So, node doesn’t require that.
+3.Ofcourse Node doesn’t have “document” object also, cause it never have to render anything in a page.
+4.Node has “global”, which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works only.
+5.“require” object is predefined in Node which is used to include modules in the app.
+
+BROWSER 
+
+1.“window” is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+2.“location” is another predefined object in browsers, that has all the information about the url we have loaded.
+3.“document”, which is also another predefined global variable in browsers, has the html which is rendered.
+4.Browsers may have an object named “global”, but it will be the exact one as “window”.
+5.Browsers don’t have “require” predefined. You may include it in your app for asynchronous file loading.
+6.Moduling is not mandatory in client side JavaScript, i.e. in browsers.
+
+Overall in Node JS we can develop frontend and backend in single language and incase of security 
+node js is trustable and preferd by all the developers.
+
+
+
+How does the Browser actually render a Website
+
+1.Parsing HTMl , in HTMl we can make mistake and still it work.
+2.If the tag are not closed are some other mistake by default parsing will identify it and give as a output with all the tags and mistakes are corrected.
+3.Render , its combines two objects models , style resolution and its what will show in the window.
+3. Render tree has four trees RenderObjects , RenderStyles , RenderLayers and line Boxes.
+4.Along with html the inline CSS is executed and on screen really fast before linked CSS .
+5.IS good to read the datas first and to write all in one go. 
+
+
+
+
+Execute the below code and write your description in txt file
+
+typeof(1) - Number 
+typeof(1.1) - Number - in js int,float and some other are consider as Number .
+typeof('1.1')- String - number or any thing in notation are consider as string.
+typeof(true)- Boolean - true and flase are consider as boolean in js.
+typeof(null)- Object - js use null to represent absence of any object value. 
+typeof(undefined)-Undefined - variable is declared but value is not initialized.
+typeof([])- Object - array also consider as object in js
+typeof({})- Object - {}-used to declare obj so it type also object.
+typeof(NaN)- Number - NaN is not real number but its type is Number in js.
